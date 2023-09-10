@@ -1,0 +1,33 @@
+p{
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.input-field{
+    border: 2px solid rgb(100, 100, 100);
+    font-size: 16px;
+    padding: 7px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
