@@ -1,0 +1,19 @@
+.div-element{
+    border: 1px solid  gray;
+    width: 250px;
+    height: 70px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+button{
+    border: 1px solid gray;
+    padding: 5px 5px;
+    width: 40px;
+}
