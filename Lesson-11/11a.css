@@ -1,0 +1,12 @@
+.first-p{
+    background-color: lightblue;
+}
+
+.second-p{
+    background-color: lightpink;
+}
+
+.grid-example{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
