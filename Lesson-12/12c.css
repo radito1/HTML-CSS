@@ -1,0 +1,9 @@
+.flexbox-example {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-example>div{
+    background-color: lightpink;
+}
