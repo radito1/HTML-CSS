@@ -1,0 +1,19 @@
+.flexbox-example{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-row{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.second-row{
+    background-color: lightpink;
+    flex: 1;
+}
+
+.third-row{
+    background-color: lightblue;
+    width: 75px;
+}
