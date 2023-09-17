@@ -1,0 +1,42 @@
+p,
+h1{
+    margin:0px;
+    margin: 10px 0px;
+}
+
+.right-sidebar{
+    background-color: green;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: white;   
+    width: 350px;
+    height: 120px; 
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
