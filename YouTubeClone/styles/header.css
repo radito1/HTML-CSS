@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightpink;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.5rem;
+}
+
+.left-section {    
+    width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    width: 25px;
+    margin-left: 18px;
+    margin-right: 22px;
+}
+
+.youtube-logo {
+    width: 90px;
+}
+
+.middle-section {
+    background-color: red;
+}
+
+.right-section {
+    background-color: red;
+}
