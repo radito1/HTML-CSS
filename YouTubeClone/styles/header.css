@@ -12,7 +12,6 @@
 }
 
 .left-section {    
-    width: 160px;
     display: flex;
     align-items: center;
 }
@@ -32,17 +31,19 @@
     align-items: center;
     flex: 1;
     max-width: 470px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 
 .search-field {
-    display: flex;
+    height: 36px;
     flex: 1;
     width: 0;
     min-width: 0;
-    padding: 10px 10px;
+    padding-left: 12px;
+    font-size: 16px;
     border: 1px solid rgb(204, 204, 204);
-    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     font-size: 16px;
     box-shadow: inset 0px 1px 2px #eeeeee;
 }
@@ -73,22 +74,24 @@
 
 .right-section {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    margin-right: 24px;
+    margin-left: 29px;
     flex-shrink: 0;
-    width: 230px;
 }
 
 .upload-icon,
 .youtube-apps-icon,
 .notifications-icon {
-    width: 25px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .profile-photo {
-    width: 35px;
-    height: 35px;
-    border-radius: 17.5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
     object-position: center;
-    margin-right: 25px;
 }
