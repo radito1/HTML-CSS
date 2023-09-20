@@ -1,11 +1,13 @@
 .main-content-container {
+    background-color: rgb(240, 238, 238);
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;    
-    
+    gap: 16px; 
+    padding: 16px 16px;
+
     position: relative;
-    top: 70px;
-    left: 80px;
+    top: 49px;
+    left: 65px;
     right: 0;
 }
 

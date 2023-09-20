@@ -3,7 +3,8 @@
     justify-content: space-between;    
     border-bottom: 1px solid rgb(204, 204, 204);;
     z-index: 100;
-    position: absolute;
+
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -17,9 +18,9 @@
 }
 
 .hamburger-menu {
-    width: 25px;
-    margin-left: 18px;
-    margin-right: 22px;
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .youtube-logo {
@@ -54,7 +55,7 @@
     border: 1px solid rgb(204, 204, 204);
     margin-left: -1px;
     width: 63px;
-    height: 40px;
+    height: 41px;
 }
 
 .search-button img {
