@@ -1,26 +1,27 @@
 .main-content-container {
-    background-color: rgb(240, 238, 238);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px; 
-    padding: 16px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 16px;
+    padding: 20px;
 
     position: relative;
     top: 49px;
-    left: 65px;
-    right: 0;
+    left: 64px;
+    right: 20px;
+    bottom: 0;
 }
 
 .video-card-container {
     display: flex;
     flex-direction: column;
     padding: 4px;
-    width: 22.8%;
 }
 
 .video-info-container {
     display: flex;
     margin-top: 12px;
+    margin-bottom: 16px;
 }
 
 .video-thumbnail {
