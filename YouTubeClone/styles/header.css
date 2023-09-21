@@ -50,6 +50,11 @@
     box-shadow: inset 0px 1px 2px #eeeeee;
 }
 
+.search-field::placeholder {
+    font-family: Roboto,Arial;
+    font-weight: 400;
+}
+
 .search-button {
     display: flex;
     justify-content: center;
