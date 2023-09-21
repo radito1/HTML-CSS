@@ -1,15 +1,9 @@
 .main-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 18px;
+    column-gap: 8px;
     row-gap: 16px;
     padding: 20px;
-
-    position: relative;
-    top: 49px;
-    left: 64px;
-    right: 20px;
-    bottom: 0;
 }
 
 .video-card-container {
@@ -30,16 +24,18 @@
 
 .profile-image {
     font-family: Roboto;
+    width: 100%;
     width: 36px;
     height: 36px;
+    margin-top: 12px;
+    line-height: 20px;
     border-radius: 36px;
-    margin-right: 10px;
 }
 
 .video-title {
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
 .video-author-and-info {
@@ -48,5 +44,5 @@
     font-weight: 400;
     color: #606060;
     line-height: 20px;
-    text-decoration: none;    
+    text-decoration: none;
 }
