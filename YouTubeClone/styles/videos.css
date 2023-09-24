@@ -19,6 +19,10 @@
     margin-bottom: 16px;
 }
 
+.info-container {
+    margin-left: 10px;
+}
+
 .video-thumbnail {
     width: 100%;
 }
@@ -35,7 +39,7 @@
 .video-title {
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .video-author-and-info {
