@@ -22,8 +22,24 @@
     margin-left: 10px;
 }
 
+.video-thumbnail-container {
+    position: relative;
+}
+
 .video-thumbnail {
     width: 100%;
+}
+
+.video-time {
+    font-size: Roboto,Arial;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 3px;
+    
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
 }
 
 .profile-image {
