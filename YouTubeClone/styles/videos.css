@@ -29,6 +29,7 @@
 
 .video-thumbnail {
     width: 100%;
+    cursor: pointer;
 }
 
 .video-time {
@@ -48,12 +49,14 @@
     width: 36px;
     height: 36px;
     border-radius: 36px;
+    cursor: pointer;
 }
 
 .video-title {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .video-author-and-info {
@@ -62,4 +65,8 @@
     font-weight: 400;
     color: #606060;
     text-decoration: none;
+}
+
+.author {
+    cursor: pointer;
 }
