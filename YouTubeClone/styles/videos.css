@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 8px;
-    row-gap: 16px;
+    row-gap: 3px;
 }
 
 .video-card-container {
@@ -14,7 +14,7 @@
 
 .video-info-container {
     display: flex;
-    margin-top: 12px;
+    margin-top: 9px;
     margin-bottom: 16px;
 }
 
