@@ -19,7 +19,8 @@
 }
 
 .info-container {
-    margin-left: 10px;
+    margin-left: 12px;
+    line-height: 16px;
 }
 
 .video-thumbnail-container {
@@ -36,7 +37,6 @@
     color: white;
     font-size: 13px;
     padding: 3px;
-    
     position: absolute;
     right: 5px;
     bottom: 10px;
@@ -47,7 +47,6 @@
     width: 100%;
     width: 36px;
     height: 36px;
-    line-height: 20px;
     border-radius: 36px;
 }
 
@@ -62,6 +61,5 @@
     font-size: 12px;
     font-weight: 400;
     color: #606060;
-    line-height: 20px;
     text-decoration: none;
 }
